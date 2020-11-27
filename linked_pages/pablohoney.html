@@ -1,0 +1,102 @@
+<!--
+Lucy Harck
+16th Jan 2018
+
+More info on HTML: https://www.w3schools.com/html/default.asp
+
+More info on CSS: https://www.w3schools.com/css/default.asp
+
+-->
+
+<!doctype html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Radiohead Fan Page</title>
+		<link href="../css/style.css" rel="stylesheet">
+		<link rel="icon" href="../images/mod_bear.ico" type="image/x-icon"/>
+			
+	</head>
+
+		
+	<body>
+		<script src="../audioPlayer.js"> </script>
+
+		<div id = "mainContainer">
+			<div id = "contentContainer">
+				<img id = "headerImage"src = "../images/maintitlepablohoney.gif">
+				<table>
+					<tbody>
+						<tr>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">You</a> 
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">Creep</a>
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">How Do You Do?</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">Stop Whispering</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">Thinking About You</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">Anyone Can Play Guitar</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">Ripcord</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">Vegtable</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">Prove Yourself</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg">
+								<a title="Click to play song">I Can't</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg" alt = "as">
+								<a title="Click to play song">Lurgee</a>
+							</td>
+								<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/pablohoney.jpg" alt = "as">
+								<a title="Click to play song">Blow Out</a>
+							</td>
+						</tr>
+					</tbody>
+				 </table>
+
+				<iframe id="musicPlayer" src="https://open.spotify.com/embed/track/1MyqLTRhgyWPw7v107BEuI" width="300" height="380" frameborder="0"allowtransparency="true" allow="encrypted-media"></iframe> 
+			</div>
+		</div>
+
+	</body>
+
+	<address>
+		<a href="../index.html" style = " color: red" target = "_blank"> home </a>
+	</address>
+</html>

@@ -1,0 +1,100 @@
+<!--
+Lucy Harck
+16th Jan 2018
+
+More info on HTML: https://www.w3schools.com/html/default.asp
+
+More info on CSS: https://www.w3schools.com/css/default.asp
+
+-->
+
+<!doctype html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>A Moon Shaped Pool</title>
+		<link href="../css/style.css" rel="stylesheet">	
+		<link rel="icon" href="../images/mod_bear.ico" type="image/x-icon"/>
+		
+	</head>
+
+		
+	<body>
+		<script src="../audioPlayer.js"> </script>
+
+		<div id = "mainContainer">
+			<div id = "contentContainer">
+				<img id = "headerImage"src = "../images/maintitleamsp.png">
+				<table>
+					<tbody>
+						<tr>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Burn The Witch</a> 
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Daydreaming</a>
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Decks Dark</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Desert Island Disk</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Ful Stop</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Glass Eyes</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Identikit</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">The Numbers</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Present Tense</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg">
+								<a title="Click to play song">Tinker Tailor Soilder</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/amsp.jpg" alt = "as">
+								<a title="Click to play song">True Love Waits</a>
+							</td>
+							<td></td>
+						</tr>
+					</tbody>
+				 </table>
+
+				<iframe id="musicPlayer" src="https://open.spotify.com/embed/track/3pcCifdPTc2BbqmWpEhtUd" width="300" height="380" frameborder="0"allowtransparency="true" allow="encrypted-media"></iframe> 
+
+			</div>
+		</div>
+
+	</body>
+
+	<address>
+		<a href="../index.html" style = " color: red" target = "_blank"> home </a>
+	</address>
+</html>

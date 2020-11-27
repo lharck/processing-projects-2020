@@ -1,0 +1,101 @@
+<!--
+Lucy Harck
+16th Jan 2018
+
+More info on HTML: https://www.w3schools.com/html/default.asp
+
+More info on CSS: https://www.w3schools.com/css/default.asp
+
+-->
+
+<!doctype html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Kid A</title>
+		<link href="../css/style.css" rel="stylesheet">	
+		<link rel="icon" href="../images/mod_bear.ico" type="image/x-icon"/>
+		
+	</head>
+
+		
+	<body>
+		<script src="../audioPlayer.js"> </script>
+
+		<div id = "mainContainer">
+			<div id = "contentContainer">
+				<img style = "height: 8%; width: 20%;"id = "headerImage"src = "../images/maintitlekida.gif">
+
+				<table>
+					<tbody>
+						<tr>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">Everything In Its Right Place</a>
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">Kid A</a>
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">The National Anthem</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">How to Disappear Completely</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">Treefingers</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">Optimistic</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">In Limbo</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">Idioteque</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">Morning Bell</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg">
+								<a title="Click to play song">Motion Picture Soundtrack</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/kida.jpg" alt = "as">
+								<a title="Click to play song">Untitled</a>
+							</td>
+							<td></td>
+						</tr>
+					</tbody>
+				 </table>
+
+				<iframe id="musicPlayer" src="https://open.spotify.com/embed/track/5AiNZnMDCWwujIENPj9PV9" width="300" height="380" frameborder="0"allowtransparency="true" allow="encrypted-media"></iframe> 
+			</div>
+		</div>
+
+	</body>
+
+	<address>
+		<a href="../index.html" style = " color: red" target = "_blank"> home </a>
+	</address>
+
+</html>

@@ -1,0 +1,139 @@
+html
+{
+	color: white;
+	font-family: Arial;
+}
+
+body
+{
+	background-color: rgb(0,0,0);
+	/*100vh viewport height*/
+}
+
+#mainContainer{
+  width: 100%;
+  height:85vh;
+  position: relative;
+}
+#contentContainer
+{
+  width: 70%;
+  height:85vh;
+  margin-left: 15%;
+  margin-top: 5%;
+  overflow: hidden;
+}
+
+.albums{
+  position: relative;
+  margin-left: 30%;
+  margin-top: 0px;
+  height: 550px;
+  width: 40%;
+}
+
+.rotatingImg
+{
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 45%;
+  height: 15%;
+  overflow: auto;
+}
+
+#radiohead {
+  height:70px;
+  margin-left: 35%;
+}
+
+#ph{ animation: phRotation 20s linear infinite; }
+#tb{ animation: tbRotation 20s linear infinite; }
+#okc{ animation: okcRotation 20s linear infinite; }
+#kida{ animation: kidaRotation 20s linear infinite; }
+#amnesiac{ animation: amnesiacRotation 20s linear infinite; }
+#httt{ animation: htttRotation 20s linear infinite; }
+#ir{ animation: irRotation 20s linear infinite; }
+#tkol{ animation: tkolRotation 20s linear infinite; }
+#amsp{ animation: amspRotation 20s linear infinite; }
+
+/*increments 40 degrees for each album to create circle positions*/
+@keyframes phRotation {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg)}
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg)}
+}
+
+@keyframes tbRotation {
+    from { transform: rotate(40deg) translateX(200px) rotate(-40deg) }
+    to   { transform: rotate(400deg) translateX(200px) rotate(-400deg) }
+}
+@keyframes okcRotation {
+    from { transform: rotate(80deg) translateX(200px) rotate(-80deg) }
+    to   { transform: rotate(440deg) translateX(200px) rotate(-440deg) }
+}
+@keyframes kidaRotation {
+    from { transform: rotate(120deg) translateX(200px) rotate(-120deg) }
+    to   { transform: rotate(480deg) translateX(200px) rotate(-480deg) }
+}
+@keyframes amnesiacRotation {
+    from { transform: rotate(160deg) translateX(200px) rotate(-160deg) }
+    to   { transform: rotate(520deg) translateX(200px) rotate(-520deg) }
+}
+@keyframes htttRotation {
+    from { transform: rotate(200deg) translateX(200px) rotate(-200deg) }
+    to   { transform: rotate(560deg) translateX(200px) rotate(-560deg) }
+}
+@keyframes irRotation {
+    from { transform: rotate(240deg) translateX(200px) rotate(-240deg) }
+    to   { transform: rotate(600deg) translateX(200px) rotate(-600deg) }
+}
+@keyframes tkolRotation {
+    from { transform: rotate(280deg) translateX(200px) rotate(-280deg) }
+    to   { transform: rotate(640deg) translateX(200px) rotate(-640deg) }
+}
+@keyframes amspRotation {
+    from { transform: rotate(320deg) translateX(200px) rotate(-320deg) }
+    to   { transform: rotate(680deg) translateX(200px) rotate(-680deg) }
+}
+
+/* -----------------------------------------------------------------------------------*/
+
+table
+{
+  background-color: #161616;
+  border-color: white;
+  border-radius: 10px;
+  border-spacing: 10px;
+  width: 50%;
+  height: 70%;
+}
+
+td
+{
+  background-color: #262626;
+  color: white;
+  border-radius: 10px;
+  cursor:pointer;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-image: url("../images/tdBackground.gif");
+  background-size: 25% 40%;
+}
+
+.tableImg{
+  width: 30px;
+  height: auto;
+  vertical-align:middle;
+}
+
+#headerImage
+{
+  width: 30%;
+}
+
+#musicPlayer
+{
+  margin-left: 60%;
+  margin-top: -50%;
+  overflow: visible;
+}

@@ -1,0 +1,104 @@
+<!--
+Lucy Harck
+16th Jan 2018
+
+More info on HTML: https://www.w3schools.com/html/default.asp
+
+More info on CSS: https://www.w3schools.com/css/default.asp
+
+-->
+
+<!doctype html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>The Bends</title>
+		<link href="../css/style.css" rel="stylesheet">	
+		<link rel="icon" href="../images/mod_bear.ico" type="image/x-icon"/>
+		
+	</head>
+
+		
+	<body>
+		<script src="../audioPlayer.js"> </script>
+
+		<div id = "mainContainer">
+			<div id = "contentContainer">
+				<img id = "headerImage"src = "../images/maintitlebends.png">
+				<table>
+					<tbody>
+						<tr>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">Planet Telex</a> 
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">The Bends</a>
+							</td>
+							<td onclick="playSong(this)" >
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">High And Dry</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">Fake Plastic Trees</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">Bones</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">(Nice Dream)</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">Just</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">My Iron Lung</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">Bullet Proof (I Wish I Was)</a>
+							</td>
+						</tr>
+						<tr>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg">
+								<a title="Click to play song">Black Star</a>
+								
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg" alt = "as">
+								<a title="Click to play song">Sulk</a>
+							</td>
+							<td onclick="playSong(this)">
+								<img class = "tableImg"src = "../images/thebends.jpg" alt = "as">
+								<a title="Click to play song">Street Spirit (Fade Out)</a>
+							</td>
+						</tr>
+					</tbody>
+				 </table>
+
+				<iframe id="musicPlayer" src="https://open.spotify.com/embed/track/3aDUSpF3LexOr1lFKvPV2h" width="300" height="380" frameborder="0"allowtransparency="true" allow="encrypted-media"></iframe> 
+			</div>
+		</div>
+
+	</body>
+	
+	<address>
+		<a href="../index.html" style = " color: red" target = "_blank"> home </a>
+	</address>
+
+
+</html>
